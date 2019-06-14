@@ -29,6 +29,9 @@ Implement an User Authentication System in order to access the jokes from the Jo
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 1. What is the purpose of using _sessions_?
+
+    sessions lets the user stay logged in through refreshes and page changes, the also give some control to the dev such as timeout 
+    
 1. What does bcrypt do to help us store passwords in a secure manner.
 
     bcrypt lets us hash our passwords 
