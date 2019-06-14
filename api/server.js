@@ -12,4 +12,8 @@ server.use(express.json());
 
 configureRoutes(server);
 
+server.get('/', (req, res)=>{
+    res.json({ message: 'Hello'})
+})
+
 module.exports = server;
